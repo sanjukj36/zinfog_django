@@ -16,4 +16,6 @@ Customer Section
 Customer Section
 (Cart)
 ![9](https://github.com/sanjukj36/zinfog_django/assets/85171419/71d143ee-a896-4464-8f4f-8fb5d6511fe2)
+Customer Section
+(Order)
 ![10](https://github.com/sanjukj36/zinfog_django/assets/85171419/05d6d767-240f-49bc-add8-0654bb098347)
