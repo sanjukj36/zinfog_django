@@ -11,7 +11,9 @@ Updating Order Status
 ![6](https://github.com/sanjukj36/zinfog_django/assets/85171419/71141624-330d-481d-936b-e68e9640078a)
 ![7](https://github.com/sanjukj36/zinfog_django/assets/85171419/2d9ef0b1-5957-4110-93e0-2dccad17a821)
 Customer Section
-Home Pager
+(Home Pager)
 ![8](https://github.com/sanjukj36/zinfog_django/assets/85171419/5dcdc089-64a0-4bf0-a028-c176d5fb37c2)
+Customer Section
+(Cart)
 ![9](https://github.com/sanjukj36/zinfog_django/assets/85171419/71d143ee-a896-4464-8f4f-8fb5d6511fe2)
 ![10](https://github.com/sanjukj36/zinfog_django/assets/85171419/05d6d767-240f-49bc-add8-0654bb098347)
