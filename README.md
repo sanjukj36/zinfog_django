@@ -1,11 +1,10 @@
 # django_zibfog 
 # Without data
 ![1](https://github.com/sanjukj36/zinfog_django/assets/85171419/93521ddb-4433-42dc-a730-82a980352339)
+![2](https://github.com/sanjukj36/zinfog_django/assets/85171419/bf4f0f4d-ad21-4dff-a5e6-7b5aeeefdcbb)
+![3](https://github.com/sanjukj36/zinfog_django/assets/85171419/f96a3e96-19d1-4ad3-ab64-e78be9dfae04)
+![4](https://github.com/sanjukj36/zinfog_django/assets/85171419/549efcb0-41dc-438b-b007-7403ca33f586)
 
-![1](https://raw.githubusercontent.com/sanjukj36/zinfog_django/main/assets/85171419/03f992fc-6d9d-4cc3-9c7a-1fa039c64427)
-![2](https://raw.githubusercontent.com/sanjukj36/zinfog_django/main/assets/85171419/958751b2-17b8-464f-9aa8-7b004f2a7e5a)
-![3](https://raw.githubusercontent.com/sanjukj36/zinfog_django/main/assets/85171419/53e8304f-1591-46db-afca-116bf6037712)
-![4](https://raw.githubusercontent.com/sanjukj36/zinfog_django/main/assets/85171419/5ffa36ed-6239-4f67-a8fb-8ae547d9ed41)
 # With data
 Shop Section
 
