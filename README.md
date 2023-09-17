@@ -10,6 +10,7 @@ Shop Section
 Here you can add, update and delete product 
 ![5](https://github.com/sanjukj36/zinfog_django/assets/85171419/9a955b39-c19b-44dc-9f5e-7ef3acf75cb4)
 Updating Order Status 
+
 ![6](https://github.com/sanjukj36/zinfog_django/assets/85171419/71141624-330d-481d-936b-e68e9640078a)
 
 
