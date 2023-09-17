@@ -1,5 +1,7 @@
 # django_zibfog 
 # Without data
+![1](https://github.com/sanjukj36/zinfog_django/assets/85171419/93521ddb-4433-42dc-a730-82a980352339)
+
 ![1](https://raw.githubusercontent.com/sanjukj36/zinfog_django/main/assets/85171419/03f992fc-6d9d-4cc3-9c7a-1fa039c64427)
 ![2](https://raw.githubusercontent.com/sanjukj36/zinfog_django/main/assets/85171419/958751b2-17b8-464f-9aa8-7b004f2a7e5a)
 ![3](https://raw.githubusercontent.com/sanjukj36/zinfog_django/main/assets/85171419/53e8304f-1591-46db-afca-116bf6037712)
