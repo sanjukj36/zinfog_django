@@ -4,7 +4,7 @@
 ![2](https://github.com/sanjukj36/zinfog_django/assets/85171419/958751b2-17b8-464f-9aa8-7b004f2a7e5a)
 ![3](https://github.com/sanjukj36/zinfog_django/assets/85171419/53e8304f-1591-46db-afca-116bf6037712)
 ![4](https://github.com/sanjukj36/zinfog_django/assets/85171419/5ffa36ed-6239-4f67-a8fb-8ae547d9ed41)
-# # With data
+# With data
 ![5](https://github.com/sanjukj36/zinfog_django/assets/85171419/9a955b39-c19b-44dc-9f5e-7ef3acf75cb4)
 ![6](https://github.com/sanjukj36/zinfog_django/assets/85171419/71141624-330d-481d-936b-e68e9640078a)
 ![7](https://github.com/sanjukj36/zinfog_django/assets/85171419/2d9ef0b1-5957-4110-93e0-2dccad17a821)
