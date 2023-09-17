@@ -7,7 +7,7 @@
 # With data
 Shop Section
 
-
+#
 Here you can add, update and delete product 
 ![5](https://github.com/sanjukj36/zinfog_django/assets/85171419/9a955b39-c19b-44dc-9f5e-7ef3acf75cb4)
 Updating Order Status 
