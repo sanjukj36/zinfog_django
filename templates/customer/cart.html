@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <!-- Add your CSS stylesheets and links to external stylesheets here -->
+</head>
+<body>
+    <header>
+        <a href="/">Home</a>
+    </header>
+
+    <div class="ecom-contenthny py-4">
+        <div class="container py-lg-4" style="min-height: 30px">
+
+            <h1 class="hny-title mb-0 text-center">Shopping &nbsp;<span>Cart</span></h1>
+
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Cart Start -->
+    <div class="container-fluid ">
+        <div class="row px-xl-5">
+            <div class="col-lg-8 table-responsive mb-5">
+                <table class="table table-bordered text-center mb-0">
+                    <thead class=" text-dark" style="background-color: #ff7315">
+                        <tr >
+                            <th><h5 style="color: white;">Products</h5></th>
+                            <th><h5 style="color: white;">Price</h5></th>
+                        </tr>
+                    </thead>
+                    <tbody class="align-middle">
+                    {% for i in cart %}
+
+                        <tr>
+                            <td class="align-middle" style="border: 1px solid white">
+
+                                    <p>&nbsp;{{i.product.name}}</p>
+
+                            </td>
+                            <td class="align-middle"><p >&nbsp;₹{{i.product.price}}</p></td>
+
+                        </tr>
+                         {% empty %}
+                        <tr>
+                            <td colspan="3">No products add.</td>
+                        </tr>
+
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-secondary mb-5">
+
+                    <div class="card-footer border-secondary bg-transparent">
+
+                        <form method="post" action="{% url 'create_order' %}">
+                            {% csrf_token %}
+                            <input type="text" name="address" placeholder="Enter address here">
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-8 table-responsive mb-5">
+                 <h1>Order status</h1>
+                <table class="table table-bordered text-center mb-0">
+                    <thead class=" text-dark" style="background-color: #ff7315">
+                        <tr >
+                            <th><h5 style="color: white;">Products</h5></th>
+                            <th><h5 style="color: white;">Price</h5></th>
+                            <th><h5 style="color: white;">Status</h5></th>
+                        </tr>
+                    </thead>
+                    <tbody class="align-middle">
+                    {% for i in order %}
+                        <tr>
+                            <td class="align-middle"><p>&nbsp;{{i.name}}</p></td>
+                            <td class="align-middle"><p >&nbsp;${{i.price}}</p></td>
+                            <td class="align-middle"><p >&nbsp;{{i.Status}}</p></td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="3">No order placed.</td>
+                        </tr>
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <!-- Cart End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn back-to-top" style="background-color: #ff7315; float:right;padding: 0.45rem -0.5rem .35rem;">
+        <i class="fa fa-angle-double-up"></i>
+    </a>
+
+
+</body>
+</html>

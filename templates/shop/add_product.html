@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <!-- Add your CSS stylesheets and links to external stylesheets here -->
+</head>
+<body>
+    <header>
+        <h1>Add Product</h1>
+    </header>
+
+    <main>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Add Product</button>
+        </form>
+    </main>
+
+    <footer>
+        <!-- Add footer content here -->
+    </footer>
+
+    <!-- Add your JavaScript scripts and links to external scripts here -->
+</body>
+</html>

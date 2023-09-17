@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <!-- Add your CSS stylesheets and links to external stylesheets here -->
+</head>
+<body>
+    <header>
+        <h1>Product List</h1>
+        <a href="{% url 'add_product' %}">ADD Products</a>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>&nbsp;Name&nbsp;</th>
+                    <th>&nbsp;Description&nbsp;</th>
+                    <th>&nbsp;Rating&nbsp;</th>
+                    <th>&nbsp;Price&nbsp;</th>
+<!--                    <th>&nbsp;Delete option&nbsp;</th>-->
+<!--                    <th>&nbsp;Update option&nbsp;</th>-->
+                </tr>
+            </thead>
+            <tbody>
+                {% for product in products %}
+                    <tr>
+                        <td>&nbsp;{{ product.name }}&nbsp;</td>
+                        <td>&nbsp;&nbsp;{{ product.description }}&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;{{ product.rating }}&nbsp;</td>
+                        <td>&nbsp;${{ product.price }}&nbsp;</td>
+                        <td>&nbsp;<a href="{% url 'product_delete' pk=product.id %}">Delete</a>&nbsp;</td>
+                        <td>&nbsp;<a href="{% url 'edit_product' pk=product.id %}">Update</a>&nbsp;</td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="3">No products available.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+    <h1>Order List</h1>
+
+
+    <footer>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                    <th>Update option</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in order %}
+                    <tr>
+                        <td>&nbsp;{{ i.name }}</td>
+                        <td>&nbsp;&nbsp;{{ i.Address }}&nbsp;&nbsp;</td>
+                        <td>&nbsp;${{ i.price }}&nbsp;</td>
+                        <td>&nbsp;{{ i.Status }}&nbsp;</td>
+                        <td>&nbsp;&nbsp;<a href="{% url 'edit_order' pk=i.id %}">Update</a></td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="3">No products available.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <!-- Add footer content here -->
+    </footer>
+
+    <!-- Add your JavaScript scripts and links to external scripts here -->
+</body>
+</html>
